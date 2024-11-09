@@ -10,9 +10,9 @@
 
 <body>
     <div class="header">
-        <a  href="./table.html">Таблица</a>
-        <a  href="./page2.html">Позиционирование элементов</a>
-        <a  href="./index.html">Основная страница</a>
+        <a href="./table.html">Таблица</a>
+        <a href="./page2.html">Позиционирование элементов</a>
+        <a href="./index.html">Основная страница</a>
     </div>
     <caption>Студенты ФИИТ</caption>
     <table>
@@ -67,6 +67,37 @@
             </tr>
         </tbody>
     </table>
+    <form id="studentForm">
+        <label>ID студента:</label>
+        <input type="text" required>
+
+        <label>ФИО студента:</label>
+        <input type="text" required>
+
+        <label>Номер группы:</label>
+        <input type="text" required>
+
+        <label>Пол:</label>
+        <select required>
+            <option>Выберите пол</option>
+            <option>Мужской</option>
+            <option>Женский</option>
+        </select>
+
+        <label>Возраст:</label>
+        <input type="number" required>
+
+        <label>Форма обучения:</label>
+        <select required>
+            <option>Выберите форму обучения</option>
+            <option>Очная</option>
+            <option>Очно-заочная</option>
+            <option>Заочная</option>
+        </select>
+
+        <button type="submit" id="submit_btn">Добавить</button>
+    </form>
+
 </body>
 
 </html>
