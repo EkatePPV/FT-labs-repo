@@ -2,41 +2,304 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport">
-    <title>Фильмография</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Фильмография</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #e3f2fd;">
-        <div class="container-fluid">
-            <a class="navbar-brand fs-3" href="#">Юрий Борисов</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link ms-3 me-1" href="./info.html">Главная</a>
-                    <a class="nav-link active" href="./film.html" href="#">Фильмы</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-        </symbol>
-      </svg>
-      <div class="alert alert-secondary d-flex align-items-center" role="alert">
-        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
-        <div>
-          Страница находится в разработке
+  <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3" href="#">Юрий Борисов</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link ms-3 me-1" href="./info.html">Главная</a>
+          <a class="nav-link active" href="./film.html" href="#">Фильмы</a>
         </div>
       </div>
+    </div>
+  </nav>
+  <div class="px-5">
+    <div class="row mt-4">
+      <div class="col-sm-6">
+        <h2>Юрий Борисов</h2>
+        <p>Дата рождения: 8 декабря, 1992 • Стрелец • 31 год</p>
+        <p>Жанры: Драма, триллер, фантастика</p>
+        <p>Всего фильмов: 72, 2010-2025</p>
+      </div>
+      <div class="col-sm-6 flex-column">
+        <img src="./images/borisov-4.webp">
+      </div>
+    </div>
+    <h2 class="my-5">Лучшие фильмы</h2>
+    <div class="row flex-row justify-content-evenly flex-wrap">
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-1.webp" class="card-img-top" alt="Фильм 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Сто лет тому вперёд</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-2.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Кентавр</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-3.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Калашников</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-4.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Капитан Волконогов бежал</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-6.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Анора</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-5.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Серебряные коньки</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-7.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Купе номер 6</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="./images/film-8.webp" class="card-img-top" alt="Фильм 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Т-34</h5>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row d-flex align-items-center">
+      <div class="col-6">
+        <h2 class="my-5">Награды</h4>
+
+        <div class="row">
+
+          <div class="card mt-3 col-lg-6">
+            <div class="card-body">
+              <span>Золотой орел, 2020 год - <span class="text-decoration-underline">Лучшая мужская роль
+                  («Бык»)</span></span>
+            </div>
+          </div>
+
+          <div class="card mt-3 col-lg-6">
+            <div class="card-body">
+              <span>Европейская киноакадемия, 2021 год - <span class="text-decoration-underline">Лучшая мужская роль
+                  («Купе номер 6»)</span></span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="card mt-3 col-lg-6">
+            <div class="card-body">
+              <span>Ника, 2021 год - <span class="text-decoration-underline">Лучшая мужская роль второго плана
+                  («Серебряные коньки»)</span></span>
+            </div>
+          </div>
+
+          <div class="card mt-3 col-lg-6">
+            <div class="card-body">
+              <span>Золотой орел, 2020 год - <span class="text-decoration-underline">Лучшая мужская роль
+                  («Калашников»)</span></span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="card mt-3 col-lg-6">
+            <div class="card-body">
+              <span>Золотой орел, 2022 год - <span class="text-decoration-underline">Лучшая мужская роль («Капитан
+                  Волконогов бежал»)</span></span>
+            </div>
+          </div>
+
+          <div class="card mt-3 col-lg-6">
+            <div class="card-body">
+              <span>Ника, 2024 год - <span class="text-decoration-underline">Лучшая мужская роль
+                  («Кентавр»)</span></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-6 d-none d-lg-block">
+        <img class="mt-3" src="images/borisov-5.jpg" style="width: 100%;" />
+      </div>
+    </div>
+    <h2 class="my-4">Фильмография</h2>
+    <table class="table table-striped table-hover text-center mx-auto w-20">
+      <thead>
+        <tr>
+          <th>Год</th>
+          <th>Русское название</th>
+          <th>Оригинальное название</th>
+          <th>Роль</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2025</td>
+          <td>Пророк. История Александра Пушкина</td>
+          <td>Пророк. История Александра Пушкина</td>
+          <td>Александр Пушкин</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Кончится лето</td>
+          <td>Кончится лето</td>
+          <td>Кеша</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Анора</td>
+          <td>Anora</td>
+          <td>Игорь</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Сто лет тому вперёд</td>
+          <td>Сто лет тому вперёд</td>
+          <td>Глот</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>Год рождения</td>
+          <td>Год рождения</td>
+          <td>Сопля</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>Кентавр</td>
+          <td>Кентавр</td>
+          <td>Саша</td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Подельники</td>
+          <td>Подельники</td>
+          <td>Пётр</td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>Капитан Волконогов бежал</td>
+          <td>Капитан Волконогов бежал</td>
+          <td>Капитан Федор Волконогов</td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>Герда</td>
+          <td>Герда</td>
+          <td>Олег</td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td>Купе номер 6</td>
+          <td>Купе номер 6</td>
+          <td>Лёха</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>Калашников</td>
+          <td>Калашников</td>
+          <td>Калашников</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>Серебряные коньки</td>
+          <td>Серебряные коньки</td>
+          <td>Алекс</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>Красный призрак</td>
+          <td>Красный призрак</td>
+          <td>Простачок</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>Петровы в гриппе</td>
+          <td>Петровы в гриппе</td>
+          <td>Саша / дед Мороз</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Союз Спасения</td>
+          <td>Союз Спасения</td>
+          <td>Антон Арбузов, лейтенант Гвардейского экипажа</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Аванпост</td>
+          <td>Аванпост</td>
+          <td>Касаткин</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Вторжение</td>
+          <td>Вторжение</td>
+          <td>Ваня</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Бык</td>
+          <td>Бык</td>
+          <td>Антон Быков</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Т-34</td>
+          <td>Т-34</td>
+          <td>Ионов</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
 </body>
 
 </html>
